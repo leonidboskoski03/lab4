@@ -1,0 +1,36 @@
+{
+  "name": "activity5.01",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "contentful": "^9.1.19",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.19",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "jsdom": "^19.0.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.9.18",
+    "vitest": "^0.9.3"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
